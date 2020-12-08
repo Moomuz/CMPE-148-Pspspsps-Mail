@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    }
+
+    /* Create two columns */
+    .column {
+        width: 33.33%;
+        padding: 10px;
+        /*height: 600px; Should be removed. Only for demonstration */
+        background-color: #FFC53E;
+        border: 7px solid #172b4d;
+        margin: 0 auto;
+    }
+
+    .space {
+
+    }
+    /* Clear floats after the columns */
+    .title
+    {
+
+        font-size: large;
+        font-weight: bold;
+        background-color: transparent;
+        text-align: center;
+        color: #172b4d;
+        padding: 2px 0px;
+    }
+
+    .card
+    {
+        text-align: center;
+        padding: 2px 0px;
+        border-radius: 5px;
+        font-weight: bold;
+        color: #172b4d;
+        background-color: white;
+        border: 1px solid #172b4d;
+        margin: 10px;
+    }
+    .insertTitle{
+        font-size: medium;
+        background-color: transparent;
+        text-align: center;
+        color: #172b4d;
+        padding: 2px 0px;
+    }

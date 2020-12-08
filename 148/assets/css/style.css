@@ -1,0 +1,49 @@
+* {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #fff;
+}
+
+html, body {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+
+body {
+    font-size: 14px;
+    min-width: 720px;
+}
+
+#mainViewComponent{
+    margin-left: 220px;
+    padding-bottom: 90px;
+    width: calc(100% - 220px);
+}
+#mainContent{
+    padding: 0 20px;
+}
+
+#background {
+    background-color: #000;
+    background-image: url("../images/porobackground.jpg");
+    background-position: center;
+    background-size: cover;
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+#topComponent {
+	min-height: 100%;
+	width: 100%;
+}
+
+#background2 {
+    background-color: #000;
+    background-image: url("../images/porobackground.jpg");
+    background-position: center;
+    background-size: cover;
+    display: table;
+    height: 100%;
+    width: 100%;
+}
